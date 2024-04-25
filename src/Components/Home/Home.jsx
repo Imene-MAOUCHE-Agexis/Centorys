@@ -5,10 +5,12 @@ const Home = () => {
   return (
     <div className='home container'>
       <div className='home-text'>
-      <h1>Campagnes pour infrastructure it multicible</h1>
-      <p>vous voulez agrandir vos espaces de vie de la maison ou de l'appartement,jumelez 2 pieces, 
-          jumelez 2 étages, créer une verriere pour plus de lumiere et un mur proteur vous gene! Ou bien un plancher,
-      <br />vous voulez renover votre maison tout en changeant la distribution, alors avec MM ou OM etc… l'expert structurel et, plus aucun mur obstacle pour une réhabilitation réussie tout en sérénité
+      <h1>Centorys : Votre Partenaire Numérique de Confiance</h1>
+      <p>Centorys est votre partenaire de confiance pour relever les défis de la transformation numérique.
+         Avec une expertise approfondie dans les technologies de pointe et une approche personnalisée, 
+         nous sommes là pour vous accompagner à chaque étape de votre parcours numérique. 
+         De l'audit initial à la mise en œuvre complète de projets, nous vous offrons les solutions dont
+          vous avez besoin pour réussir dans un monde en constante évolution.
       </p>
       <button className='btn'>Explorez plus ! <img src={fleche} 
       alt="" /></button>

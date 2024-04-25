@@ -21,4 +21,7 @@
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
 }
