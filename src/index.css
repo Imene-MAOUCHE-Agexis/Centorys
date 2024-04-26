@@ -35,3 +35,29 @@ a{
   width: 20px;
   margin-left: 10px;
 }
+.btn.dark-btn {
+  background: #212EA0;
+  color: #fff;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  animation: jump 1s infinite alternate; 
+}
+
+@keyframes jump {
+  0% {
+      transform: translateY(0); 
+  }
+  50% {
+      transform: translateY(-10px); 
+  }
+  100% {
+      transform: translateY(0);
+  }
+}

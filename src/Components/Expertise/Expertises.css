@@ -1,0 +1,18 @@
+.expertises{
+    margin: 80px auto;
+    width: 80%;
+    text-align: center;
+}
+.domaine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+.domaine img{
+    width: calc(33.33% - 20px); 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
