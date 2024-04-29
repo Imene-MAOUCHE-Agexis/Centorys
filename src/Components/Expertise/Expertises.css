@@ -11,8 +11,9 @@
     gap: 30px;
 }
 .domaine img{
-    width: calc(33.33% - 20px); 
-    height: 200px; 
-    object-fit: cover;
+    width: calc(33.33% - 20px); /* Calcule la largeur pour que trois images tiennent sur une ligne avec l'espace entre elles */
+    height: 200px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Ajuste la taille de l'image sans déformer */
     border-radius: 10px;
+
 }
